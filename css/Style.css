@@ -59,3 +59,49 @@ body{
 #header h1 a{
     color: #71b053;
 }
+
+/*Menu de navegacion*/
+#menu{
+    width: 100%;
+    height: 40px;
+    background-color: #333333;
+    font-family: sans-serif, Arial, Helvetica;
+    font-size: 14px;
+    box-shadow: 0px 0px 2px gray;
+}
+
+#menu ul{
+    list-style: none;
+    margin: 0 auto;
+    width: 1130px;
+}
+
+#menu > ul > li{
+    line-height: 40px;
+    float: left;
+    border-right: 1px solid gray;
+    transition:all 300ms;
+}
+
+#menu > ul > li > a{
+    display: block;
+    padding-left:20px;
+    padding-right:20px ;
+    color: white;
+}
+
+#menu > ul > li > a:first-child{
+    border-left: 1px solid gray;
+}
+
+#menu > ul > li:hover{
+    background-color: #71b053;
+    box-shadow: 0px 0px 4px gray inset;
+}
+
+#clearflix{
+    float: none;
+    clear: both;
+}
+
+
