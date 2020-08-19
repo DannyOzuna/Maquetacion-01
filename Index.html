@@ -1,49 +1,104 @@
 <!DOCTYPE html>
 <html lang="es">
-    <head>
-        <meta charset="UTF-8">
-        <title>Master Css</title>
-        <link rel="icon" type="image/x-icon" href="img/logo.png">
-        <link rel="Stylesheet" href="css/Style.css">
-    </head>
-    <body>
-        <!--Inicio de la Cabecera-->
-        <header id="header">
-            <div id="logotipo">
-                <img src="img/logo.png" alt="Logotipo de la WEB">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Master Css</title>
+    <link rel="icon" type="image/x-icon" href="img/logo.png">
+    <link rel="Stylesheet" href="css/Style.css">
+</head>
+
+<body>
+    <!--Inicio de la Cabecera-->
+    <header id="header">
+        <div id="logotipo">
+            <img src="img/logo.png" alt="Logotipo de la WEB">
+        </div>
+        <h1>
+            <a href="Index.html">Master en CSS</a>
+        </h1>
+    </header>
+    <!--Fin de la Cabacera-->
+    <!--Menu de Navegacion-->
+    <nav id="menu">
+        <ul>
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#">Contenido</a></li>
+            <li><a href="#">Requerimientos</a></li>
+            <li><a href="#">Lenguajes</a>
+                <ul>
+                    <li><a href="#">HTML</a></li>
+                    <li><a href="#">CSS</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Frameworks</a>
+                <ul>
+                    <li><a href="#">LESS</a></li>
+                    <li><a href="#">SASS</a></li>
+                    <li><a href="#">BOOTSTRAP 4</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Proyectos</a></li>
+            <li><a href="#">El Instructor</a></li>
+            <li><a href="#">Reseñas</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">contactos</a></li>
+        </ul>
+        <div id="clearflix"></div>
+    </nav>
+    <!--Fin del Menu-->
+    <!--Contener General-->
+    <section id="content">
+        <!--Barra lateral-->
+        <aside id="lateral">
+            <div class="widget" id="login">
+                <h3>Entrar a la WEB</h3>
+                <form>
+                    <label for="usuario">Usuario:</label>
+                    <input type="text" name="usuario">
+                    <label for="contrasena">Contraseña:</label>
+                    <input type="password" name="contrasena">
+                    <input type="submit" value="Entrar">
+                </form>
+                <a href="#">Zona de Alumnos</a>
+                <a href="#">Zona del Profesor</a>
+                <a href="#">Acceso a Calificaciones</a>
             </div>
-            <h1>
-                <a href="Index.html">Master en CSS</a>
-            </h1>
-        </header>
-        <!--Fin de la Cabacera-->
-        <!--Menu de Navegacion-->
-        <nav id="menu">
-            <ul>
-                <li><a href="#">Inicio</a></li>
-                <li><a href="#">Contenido</a></li>
-                <li><a href="#">Requerimientos</a></li>
-                <li><a href="#">Lenguajes</a>
-                    <ul>
-                        <li><a href="#">HTML</a></li>
-                        <li><a href="#">CSS</a></li>
-                    </ul>
-                </li>
-                <li><a href="#">Frameworks</a>
-                    <ul>
-                        <li><a href="#">LESS</a></li>
-                        <li><a href="#">SASS</a></li>
-                        <li><a href="#">BOOTSTRAP 4</a></li>
-                    </ul>
-                </li>
-                <li><a href="#">Proyectos</a></li>
-                <li><a href="#">El Instructor</a></li>
-                <li><a href="#">Reseñas</a></li>
-                <li><a href="#">Blog</a></li>
-                <li><a href="#">contactos</a></li>
-            </ul>
-            <div id="clearflix"></div>
-        </nav>
-        <!--Fin del Menu-->
-    </body>
+            <div class="widget">
+                <h3 class="red">Aula Virtual 1</h3>
+                <label for="nombreusuario">Nombre Usuario</label>
+                <input type="text" name="nombreusuario">
+                <label for="contrasena">Contraseña</label>
+                <input type="password" name="contrasena">
+                <input type="submit" value="Entrar">
+            </div>
+            <div class="widget">
+                <h3 class="blue">Aula Virtual 2</h3>
+                <label for="nombreusuario">Nombre Usuario</label>
+                <input type="text" name="nombreusuario">
+                <label for="contrasena">Contraseña</label>
+                <input type="password" name="contrasena">
+                <input type="submit" value="Entrar">
+            </div>
+            <div class="widget">
+                <h3>Enlaces de Interes</h3>
+                <li><a href="#">Master en JavaScript</a></li>
+                <li><a href="#">Master en PHP</a></li>
+                <li><a href="#">Master en Frameworks JS</a></li>
+                <li><a href="#">Master en Webs Full-Stack</a></li>
+                <li><a href="#">Ir a google</a></li>
+            </div>
+        </aside>
+        <aside id="frase">
+            <p>
+                Frase del dia:<br>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+            </p>
+            <a href="#">Leer mas frases</a>
+        </aside>
+        <!--Fin de la Barra lateral-->
+    </section>
+    <!--Fin del Contenedor General-->
+</body>
+
 </html>
