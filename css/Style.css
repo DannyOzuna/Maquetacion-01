@@ -10,6 +10,16 @@
     font-style: normal;
 }
 @font-face{
+    font-family: "icons";
+    src: url("../fonts/websymbols-regular-webfont.svg#WebSymbolsRegular") format("svg"),
+    url("../fonts/websymbols-regular-webfont.eot");
+    src: url("../fonts/websymbols-regular-webfont.eot?#iefix") format("embedded-opentype"),
+        url("../fonts/websymbols-regular-webfont.woff") format("woff"),
+        url("../fonts/websymbols-regular-webfont.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face{
     font-family: "FjallaOne";
     src: url("../fonts/FjallaOne-Regular.ttf") format('truetype');
     font-weight: normal;
@@ -35,6 +45,12 @@ a:visited{
 a:hover{
     color: #285616;
 }
+.iconos{
+    font-family: "icons";
+    float: left;
+    margin-right: 5px;
+    margin-top: -1px;
+}
 
 .red{
     color: #9b2422 !important;
@@ -42,6 +58,10 @@ a:hover{
 
 .blue{
     color: #0c73f2 !important;
+}
+
+.orange{
+    color: #d69d2a !important;
 }
 /*FORMULARIOS*/
 input[type="text"],
@@ -312,6 +332,7 @@ button{
     text-align: center;
     letter-spacing: 1px;
     margin-bottom: 5px;
+    margin-top: -20px;
     padding-top: 20px;
     padding-bottom: 10px;
     border-bottom: 1px solid #cccccc;
@@ -338,4 +359,14 @@ button{
     display: block;
     color: gray;
     font-size: 14px;
+}
+
+#sections .stickers{
+    position: absolute;
+    margin-top: -40px;
+    z-index: 0;
+}
+
+#sections .stickertwo{
+    margin-left: 820px;
 }
